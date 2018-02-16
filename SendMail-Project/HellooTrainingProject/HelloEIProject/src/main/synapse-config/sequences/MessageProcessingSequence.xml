@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="MessageProcessingSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="Sequence" value="Payment is processing.."/>
+    </log>
+    <call>
+        <endpoint key="gov:endpoints/SettlePaymentEP.xml"/>
+    </call>
+    <log/>
+    <gmail.init/>
+    <gmail.sendMail/>
+    <drop description="end the message"/>
+</sequence>

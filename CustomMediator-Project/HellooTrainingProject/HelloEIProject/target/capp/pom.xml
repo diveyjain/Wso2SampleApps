@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.HelloEIProject</groupId>
+  <artifactId>HelloEIProject_module</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>HelloEIProject_module</name>
+  <description>HelloEIProject_module</description>
+  <modules>
+    <module>artifacts\endpoint\HealthCareEP</module>
+    <module>artifacts\endpoint\GrandOaksEP</module>
+    <module>artifacts\endpoint\ClemencyEP</module>
+    <module>artifacts\endpoint\PineValleyEP</module>
+    <module>artifacts\api\HealthCareAPI</module>
+    <module>artifacts\api\testMediator</module>
+    <module>artifacts\message-store\PaymentRequestMsgStrore</module>
+    <module>artifacts\sequence\MessageProcessingSequence</module>
+    <module>artifacts\message-processors\PaymentMessageProcessor</module>
+  </modules>
+</project>

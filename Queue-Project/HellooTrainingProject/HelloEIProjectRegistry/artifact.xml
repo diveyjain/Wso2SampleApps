@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="HealthcareDM" groupId="com.example.HelloEIProjectRegistry.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>HealthcareDM.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="HealthcareDM_inputSchema" groupId="com.example.HelloEIProjectRegistry.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>HealthcareDM_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="HealthcareDM_outputSchema" groupId="com.example.HelloEIProjectRegistry.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>HealthcareDM_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="GetChannelingFee" groupId="com.example.HelloEIProjectRegistry.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>GetChannelingFee.xml</file>
+            <path>/_system/governance/endpoints</path>
+            <mediaType>application/vnd.wso2.esb.endpoint</mediaType>
+        </item>
+    </artifact>
+    <artifact name="SettlePaymentEP" groupId="com.example.HelloEIProjectRegistry.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>SettlePaymentEP.xml</file>
+            <path>/_system/governance/endpoints</path>
+            <mediaType>application/vnd.wso2.esb.endpoint</mediaType>
+        </item>
+    </artifact>
+</artifacts>
